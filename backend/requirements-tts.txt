@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Coqui TTS currently requires Python >=3.9,<3.12.
+# Install with Python 3.10 or 3.11, and install a matching PyTorch CUDA wheel first
+# if you plan to run TTS_DEVICE=cuda.
+numpy<2.0
+TTS==0.22.0
